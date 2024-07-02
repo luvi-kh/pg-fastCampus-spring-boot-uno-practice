@@ -1,1 +1,1 @@
-# pg-fastCampus-spring-boot-uno-practice
+fastcampus-spring-boot-practice
