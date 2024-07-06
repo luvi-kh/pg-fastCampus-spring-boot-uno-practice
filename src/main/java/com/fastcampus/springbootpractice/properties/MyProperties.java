@@ -3,7 +3,7 @@ package com.fastcampus.springbootpractice.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
-@ConfigurationProperties("my")
+//@ConfigurationProperties("my")
 public class MyProperties {
 
     private Integer height;
