@@ -46,9 +46,4 @@ public class FastcampusSpringBootPracticeApplication {
         System.out.println("[configurationProps] " + myProperties.getHeight());
     }
 
-    @ConfigurationProperties("my")
-    @Bean
-    public MyProperties myProperties() {
-        return new MyProperties();
-    }
 }
