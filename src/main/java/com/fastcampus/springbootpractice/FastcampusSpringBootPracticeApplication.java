@@ -9,8 +9,11 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 public class FastcampusSpringBootPracticeApplication {
 
-    @Value("${my.height}")
-    private Integer height;
+    private final Integer height;
+
+    public FastcampusSpringBootPracticeApplication(@Value("${my.height}") Integer height) {
+        this.height = height;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(FastcampusSpringBootPracticeApplication.class, args);
