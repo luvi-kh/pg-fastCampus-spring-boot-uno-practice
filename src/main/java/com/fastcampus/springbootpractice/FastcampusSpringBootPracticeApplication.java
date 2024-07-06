@@ -4,11 +4,13 @@ import com.fastcampus.springbootpractice.properties.MyProperties;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.env.Environment;
 
 import javax.annotation.PostConstruct;
 
+@ConfigurationPropertiesScan
 @SpringBootApplication
 public class FastcampusSpringBootPracticeApplication {
 
